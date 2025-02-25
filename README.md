@@ -1,7 +1,7 @@
 # Game Design Document
 
 ## Section 0: Summary
-The game, Running Dog, is an endless runner game where an avatar, a dog, must dodge obstacles in order to accumulate as many points as they can. The game ends when the avatar runs out of lives. There will be power ups throughout the game that the player can attempt to retrieve that will make it easier for the player to earn points. The members of the team creating this game are Ryan Hu, Allison Xin, and Clara Yu. 
+The game, Running Dog, is an endless runner game where an avatar, a dog, must dodge obstacles in order to accumulate as many points as they can. The game ends when the avatar runs out of lives. There will be power ups throughout the game that the player can attempt to retrieve that will make it easier for the player to earn points. 
 
 ## Section 1: Gameplay
 The game progresses continuously as the player navigates through a challenging array of obstacles by jumping or ducking. It does not end until the moment the avatar, controlled by the player, runs out of lives (by hitting obstacles), resulting in a game over. This will mark the end of the current session, allowing the player to try again and play another round to improve their performance. Because the game is an endless runner platform, there is no win condition. Rather, the goal of the game is to deter loss for as long as possible and to accumulate the greatest number of points as possible. However, in the end, a player will always eventually lose. This occurs when the avatar hits too many obstacles and runs out of lives, causing the game to be over. In addition, there are no levels. Instead, after the conclusion of each round, the player can choose to try again in an attempt to earn more points. Points will represent the player's progress as they increase gradually over time at a rate of 100 point per second. This continuous accumulation adds a sense of progress and accomplishment, even during moments of inactivity. Points will serve as a measure of achievement, enriching the player's experience and encouraging replayability.
@@ -22,22 +22,3 @@ Power-ups will be implemented as a priority 3 feature. We will design different 
 
 Help Page will be implemented as a priority 4 feature. This will consist of a button on the starting screen that leads to a separate page that explains the rules of the game. This page will also explain how to play the game and will define each of the obstacles and power ups/downs. This will help the user to know how to play the game and how the game works as a whole before starting. Parallax background will be implemented as priority 4 feature where a background with mountains moves slower than the foreground. Leaderboard (high score) will be implemented as a priority 4 feature. This will be at the end of the game and show the current top 3 high scores and update if the newest run of the game resulted in a high score.
 
-## Section 3: Timeline
-
-| Priority | Feature | Group Member | Week |
-| ----- | ----- | ----- | ----- | 
-| Priority 1 | Character/Body Sprites | Clara | 1 |
-| Priority 1 | Key Handler & Text Rendering | Allison | 1 | 
-| Priority 1 | Side Scrolling Background | Ryan | 1 |
-| Priority 2 | Obstacle Collisions | Clara | 2 |
-| Priority 2 | UI Elements | Allison | 2 | 
-| Priority 2 | Forces & Ground Collisions | Ryan | 2 |
-| Priority 3 | Power-ups | Clara | 3 |
-| Priority 3 | Lives | Allison | 3 | 
-| Priority 3 | Game Animations | Ryan | 3 |
-| Priority 4 | Help Page | Clara | 3 |
-| Priority 4 | Leaderboard(High Score) | Allison | 3 | 
-| Priority 4 | Parallax Background | Ryan | 3 |
-## Section 4: Disaster Recovery
-Our entire group agreed that this is how we will get back on track if either of us falls behind. If one of our group members is falling behind, they will promptly reach out to the rest of the group for potential insight and assistance with debugging. Ideally, the combined knowledge of the group will be able to fix any issues at hand. However, if the problem seems to be outside our capabilities, the group will collectively attend office hours together to fix the problem with help of the TAs.
-In the off chance that the TAs are also unable to help figure out our problem, we will be open and willing to potentially reconsider and modify their planned features. The core functionality of our game will remain the same, but by reworking the problematic elements, the group can continue making progress. 
