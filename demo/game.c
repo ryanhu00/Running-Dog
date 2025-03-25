@@ -81,8 +81,8 @@ const size_t INVINCIBLE_SEC = 4;
 const int8_t TITLE_TEXT_SIZE = 48;
 const int8_t NORM_TEXT_SIZE = 20;
 
-const double INITIAL_JUMP_VELOCITY = 500;
-const double DOG_GRAVITY = 40;
+const double INITIAL_JUMP_VELOCITY = 600;
+const double DOG_GRAVITY = 30;
 
 const char *SCORE_TEXT = "Score: %zu";
 const char *SCORE1_TEXT = "#1: %zu";
